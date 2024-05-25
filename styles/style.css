@@ -1,4 +1,8 @@
 /* место для вашего кода */
+.header {
+  display: flex;
+}
+
 .header__links-list {
   display: flex;
   gap: 28px;
@@ -16,4 +20,10 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+}
+
+.header__logo {
+  display: block;
+  width: 129px;
+  height: 105px;
 }
