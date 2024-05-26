@@ -1,5 +1,20 @@
 /* место для вашего кода */
 
+.text-regular {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+}
+
+.text-bold {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+}
+
+.text-bolder {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+}
+
 .header {
   padding-top: 93px;
   padding-left: 50px;
