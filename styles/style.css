@@ -1,11 +1,19 @@
 /* место для вашего кода */
 .header {
+  padding-top: 93px;
+  padding-left: 50px;
   display: flex;
+  align-items: center;
+  min-height: 105px;
+}
+
+.header__menu {
+  margin-right: 47px;
 }
 
 .header__links-list {
   display: flex;
-  gap: 28px;
+  gap: 32px;
 }
 
 .header__links-list-item {
@@ -24,7 +32,8 @@
 
 .header__logo {
   display: block;
-  width: 129px;
+  margin-right: 192px;
+  width: 135px;
   height: 105px;
 }
 
