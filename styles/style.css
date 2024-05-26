@@ -144,3 +144,20 @@
   color: #ffffff;
   text-transform: uppercase;
 }
+
+.lots__card-list {
+  display: flex;
+  gap: 25px;
+  list-style-type: none;
+}
+
+.lots__card-list-item {
+  flex-grow: 1;
+}
+
+.card-link {
+  display: block;
+  text-decoration: none;
+  width: 334px;
+  min-height: 563px;
+}
