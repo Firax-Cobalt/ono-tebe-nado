@@ -1,4 +1,5 @@
 /* место для вашего кода */
+
 .header {
   padding-top: 93px;
   padding-left: 50px;
@@ -159,5 +160,25 @@
   display: block;
   text-decoration: none;
   width: 334px;
+}
+
+.card {
+  padding: 48px 40px;
+  width: 334px;
   min-height: 563px;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
+  background-repeat: no-repeat;
 }
