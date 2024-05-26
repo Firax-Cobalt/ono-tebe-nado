@@ -2,6 +2,7 @@
 .header {
   padding-top: 93px;
   padding-left: 50px;
+  padding-bottom: 95px;
   display: flex;
   align-items: center;
   min-height: 105px;
@@ -49,4 +50,35 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
+}
+
+.cover {
+  padding-left: 50px;
+  padding-right: 50px;
+  min-height: 757px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.cover__title {
+  font-family: Raleway, sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 115px;
+  color: #ffffff;
+}
+
+.aligned-text {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 32px;
+}
+
+.aligned-text__cetner {
+  text-align: center;
+}
+
+.aligned-text__right {
+  text-align: right;
 }
