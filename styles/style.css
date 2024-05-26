@@ -74,12 +74,20 @@
 }
 
 .cover__title {
-  margin-bottom: 145px;
+  margin-bottom: 128px;
   font-family: Raleway, sans-serif;
   font-size: 100px;
   font-weight: 700;
   line-height: 115px;
   color: #ffffff;
+}
+
+.cover-title__it {
+  margin-bottom: 13px;
+}
+
+.cover-title__for-you {
+  margin-bottom: 4px;
 }
 
 .aligned-text {
