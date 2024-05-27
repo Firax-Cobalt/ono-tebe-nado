@@ -249,5 +249,40 @@
 }
 
 .about {
+  padding-top: 183px;
   display: grid;
+  grid-template-columns: 383px 693px;
+}
+
+.about__column {
+  justify-self: center;
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.about__title {
+  margin-bottom: 99px;
+  padding-top: 99px;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.about__text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.about__text {
+  font-size: 20px;
+  line-height: 24px;
 }
